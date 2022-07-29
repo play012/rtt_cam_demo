@@ -1,2 +1,5 @@
 # rtt_cam_demo
-RTT Cam Demo
+Demonstration of 3D avatars mapped to webcam poses
+- **R**eact
+- **T**ypeScript
+- **T**hree.js
