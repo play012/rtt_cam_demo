@@ -1,5 +1,6 @@
 {
   "name": "rtt_cam_demo",
+  "homepage": "https://play012.github.io/rtt_cam_demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,18 +13,19 @@
     "@types/node": "^16.11.46",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
-    "@types/stats.js": "^0.17.0",
     "@types/three": "^0.143.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-webcam": "^7.0.1",
     "three": "^0.143.0",
-    "typescript": "^4.7.4",
-    "web-vitals": "^2.1.4"
+    "typescript": "^4.7.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -45,8 +47,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.1.7"
   }
 }

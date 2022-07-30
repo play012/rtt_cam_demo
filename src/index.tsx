@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Webcam from "react-webcam";
 
-import './index.css';
 import logo from './logo.png';
 import ThreeJS from './ThreeJS';
 
