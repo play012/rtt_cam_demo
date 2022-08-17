@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/rtt_cam_demo/static/js/main.9eb00885.js",
+    "main.js": "/rtt_cam_demo/static/js/main.da859bf6.js",
     "index.html": "/rtt_cam_demo/index.html",
-    "main.9eb00885.js.map": "/rtt_cam_demo/static/js/main.9eb00885.js.map"
+    "main.da859bf6.js.map": "/rtt_cam_demo/static/js/main.da859bf6.js.map"
   },
   "entrypoints": [
-    "static/js/main.9eb00885.js"
+    "static/js/main.da859bf6.js"
   ]
 }
