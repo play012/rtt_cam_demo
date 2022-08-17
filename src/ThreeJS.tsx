@@ -17,7 +17,7 @@ function Avatar(props: ThreeElements['mesh']) {
 
 export default function ThreeJS() {
   return (
-    <Canvas className='h-[169px]'>
+    <Canvas>
       <Avatar />
     </Canvas>
   )

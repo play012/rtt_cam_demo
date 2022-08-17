@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Webcam from "react-webcam";
 
 import logo from './logo.png';
 import ThreeJS from './ThreeJS';
+import PosenetCam from './PosenetCam';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
-document.body.classList.add('bg-slate-800', 'flex', 'flex-col', 'min-h-screen', 'justify-center');
+document.body.classList.add('bg-slate-800', 'flex', 'flex-col', 'min-h-screen', 'justify-center', '-translate-y-[100px]');
 
 root.render(
   <React.StrictMode>
@@ -22,8 +22,7 @@ root.render(
     </header>
 
     <ThreeJS/>
-    <Webcam className='mx-auto'
-      width={267}
-      mirrored={true}/>
+    <PosenetCam/>
+    
   </React.StrictMode>
 );
