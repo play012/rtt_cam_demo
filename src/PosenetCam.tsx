@@ -4,7 +4,7 @@ import Webcam from "react-webcam";
 import * as tf from '@tensorflow/tfjs';
 import * as posenet from '@tensorflow-models/posenet';
 
-import { drawKeypoints, drawSkeleton} from './demo_util';
+import { drawKeypoints, drawSkeleton} from './utils';
 
 function PosenetCam() {
     tf.getBackend();
