@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import React, { useRef } from 'react';
 import Webcam from "react-webcam";
 
 import * as tf from '@tensorflow/tfjs';
