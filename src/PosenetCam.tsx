@@ -6,7 +6,7 @@ import * as posenet from '@tensorflow-models/posenet';
 
 import { drawKeypoints, drawSkeleton} from './utils';
 
-function PosenetCam() {
+function PosenetCam(props: any) {
     tf.getBackend();
     const webcamRef = useRef<any>(null);
     const canvasRef = useRef(null);
@@ -43,6 +43,11 @@ function PosenetCam() {
         canvas.current.width = videoWidth;
         canvas.current.height = videoHeight;
 
+        if (pose.score > 0) {
+            const keypoints = pose.keypoints;
+            props.mapJoints(keypoints);
+        }
+
         drawKeypoints(pose['keypoints'], 0.5, ctx);
         drawSkeleton(pose['keypoints'], 0.5, ctx);
     }
@@ -50,7 +55,7 @@ function PosenetCam() {
     runPosenet();
 
     return (
-        <div>
+        <div className='-scale-x-100'>
             <Webcam
                 ref={webcamRef} 
                 className='absolute mx-auto left-1/2 right-1/2 w-[267px] h-[150px] -translate-x-[133px]'
@@ -60,7 +65,7 @@ function PosenetCam() {
                 ref={canvasRef}
                 className='absolute mx-auto left-1/2 right-1/2 w-[267px] h-[150px] -translate-x-[133px]'/>
         </div>
-    )
+    );
 }
 
 export default PosenetCam;
