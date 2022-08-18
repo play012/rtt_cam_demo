@@ -1,10 +1,11 @@
 {
-  "files": {
-    "main.js": "/rtt_cam_demo/static/js/main.da859bf6.js",
-    "index.html": "/rtt_cam_demo/index.html",
-    "main.da859bf6.js.map": "/rtt_cam_demo/static/js/main.da859bf6.js.map"
-  },
-  "entrypoints": [
-    "static/js/main.da859bf6.js"
-  ]
+  "main.js": "/rtt_cam_demo/static/js/main.02ce2104.chunk.js",
+  "main.js.map": "/rtt_cam_demo/static/js/main.02ce2104.chunk.js.map",
+  "runtime~main.js": "/rtt_cam_demo/static/js/runtime~main.c415e7a4.js",
+  "runtime~main.js.map": "/rtt_cam_demo/static/js/runtime~main.c415e7a4.js.map",
+  "static/js/2.ec8e9be9.chunk.js": "/rtt_cam_demo/static/js/2.ec8e9be9.chunk.js",
+  "static/js/2.ec8e9be9.chunk.js.map": "/rtt_cam_demo/static/js/2.ec8e9be9.chunk.js.map",
+  "index.html": "/rtt_cam_demo/index.html",
+  "precache-manifest.eddaed5f05ebb26eada57ae6d33bad71.js": "/rtt_cam_demo/precache-manifest.eddaed5f05ebb26eada57ae6d33bad71.js",
+  "service-worker.js": "/rtt_cam_demo/service-worker.js"
 }
